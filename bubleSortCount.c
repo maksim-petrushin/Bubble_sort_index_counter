@@ -38,8 +38,8 @@ void bubbleSort(int arr[], int n, int *count)
                 temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
-                count[j]++;
-                count[j+1]++;
+                count[i]++;
+                
             }
             
         }
